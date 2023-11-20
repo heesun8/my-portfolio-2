@@ -18,7 +18,7 @@ const Header = () => {
             </video>
             <header className="app__header">
                 <h1>Hello, I'm Heesun
-                    <span>A frontend web developer.</span>
+                    <span>A frontend web engineer.</span>
                 </h1>
             </header>
         </div>
