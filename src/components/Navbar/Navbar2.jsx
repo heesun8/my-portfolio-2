@@ -24,10 +24,10 @@ const Navbar = () => {
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineFullscreenExit className="overlay__close" fontsize={27} onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
-              <li className="p__new"><a href="/">Home</a></li>
-              <li className="p__new"><a href="/Meals">About</a></li>
-              <li className="p__new"><a href="/Drinks">Projects</a></li>
-              <li className="p__new"><a href="/Gallery">Contact</a></li>
+              <li className="p__new"><a href="#home">Home</a></li>
+              <li className="p__new"><a href="#about">About</a></li>
+              <li className="p__new"><a href="#projects">Projects</a></li>
+              <li className="p__new"><a href="#contact">Contact</a></li>
             </ul>
           </div>
         )}
